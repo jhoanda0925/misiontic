@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navegacion {
+    background-color: #1565c0;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#btn_registroDeUsuarios {
+    background-color: #c62828;
+    border: none;
+}
+
+#a_registroDeUsuarios {
+    padding: 16px;
+    color: #FFF;
+    display: block;
+    text-decoration: none;
+}
+
+#registrar_usuario_form {
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+#registrar_usuario_form div {
+    display: flex;
+    margin: 4px;
+}
+
+#registrar_usuario_form div label {
+    display: block;
+    width: 50%;
+}
+#registrar_usuario_form div input {
+    width: 50%;
+}
+
+#enviar_registro {
+    width: 25%;
+    padding: 8px;
+    border: none;
+    background-color: #c62828;
+    color: #FFF;
+}
