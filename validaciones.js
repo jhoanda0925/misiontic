@@ -24,9 +24,7 @@ function agregarRegistro() {
     const usuario = document.getElementById('nombre_usuario').value;
     const anoNacimiento = document.getElementById('anoNacimiento_usuario').value;
     const contrasena = document.getElementById('contrasena_usuario').value;
-    if(validar_nombre_usuario(usuario) && validar_anoNacimiento_usuario(anoNacimiento) && validar_contrasena(contrasena)) {
-        registros.push({usuario, anoNacimiento, contrasena});
-    }
+    registros.push({usuario, anoNacimiento, contrasena});
 }
 
 function EncontrarUsuarioPorEdad(arreglo) {
@@ -43,8 +41,9 @@ function EncontrarUsuarioPorEdad(arreglo) {
     return null;
 }
 
-document.getElementById('enviar_registro').addEventListener('click', agregarRegistro);
-
 module.exports.registros = registros;
 module.exports.EncontrarUsuarioPorEdad = EncontrarUsuarioPorEdad;
 module.exports.agregarRegistro = agregarRegistro;
+module.exports.validar_nombre_usuario = validar_nombre_usuario;
+module.exports.validar_anoNacimiento_usuario = validar_anoNacimiento_usuario;
+module.exports.validar_contrasena = validar_contrasena;
