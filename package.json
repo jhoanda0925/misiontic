@@ -1,0 +1,23 @@
+{
+  "name": "misionticjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "validaciones.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhoanda0925/misiontic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhoanda0925/misiontic/issues"
+  },
+  "homepage": "https://github.com/jhoanda0925/misiontic#readme",
+  "devDependencies": {
+    "jasmine": "^3.10.0",
+    "jest": "^27.3.1"
+  }
+}
